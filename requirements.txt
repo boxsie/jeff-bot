@@ -1,0 +1,14 @@
+discord.py[voice]==2.7.1
+google-api-python-client
+google-cloud-storage
+google-cloud-pubsub
+Pillow
+websockets>=10,<12
+nest-asyncio
+tqdm
+httpx
+numpy
+texttable
+python-dateutil
+croniter
+PyJWT

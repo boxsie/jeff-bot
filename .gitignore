@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+.venv-*/
+env/
+
+# Environment
+.env
+*.env
+!.env.example
+
+# Secrets / credentials
+*.pem
+*.key
+credentials.json
+gcp-credentials.json
+*-key.json
+*-secrets.json
+
+# Runtime data (populated from GCS at startup)
+data/
+*.log
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Claude Code local config
+.claude/settings.local.json
